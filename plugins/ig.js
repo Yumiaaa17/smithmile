@@ -17,7 +17,9 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 }
 handler.help = ['ig'].map(v => v + ' <url>')
 handler.tags = ['downloader']
-handler.command = /^(ig(dl)?|instagram(dl)?)$/i
+handler.customPrefix = /ig(dl)?|instagram(dl)?
+
+handler.command = new RegExp
 
 handler.limit = true
 
