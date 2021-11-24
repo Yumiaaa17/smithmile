@@ -16,7 +16,9 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 }
 handler.help = ['tiktok'].map(v => v + ' <url>')
 handler.tags = ['downloader']
-handler.command = /^(tiktok|tt|ttdl)$/i
+handler.customPrefix = /^tiktok|tt|ttdl$/i
+
+handler.command = new RegExp
 
 handler.limit = 1
 
