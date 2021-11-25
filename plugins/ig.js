@@ -8,7 +8,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
   igdl(args[0]).then(async res => {
     let igdl = JSON.stringify(res)
     let json = JSON.parse(igdl)
-    await m.reply(global.wait)
+    //await m.reply(global.wait)
     for (let { downloadUrl, type } of json) {
       conn.sendFile(m.chat, downloadUrl, 'ig' + (type == 'image' ? '.jpg' : '.mp4'), watermark, m)
     }
