@@ -10,7 +10,7 @@ let handler = async(m, { conn }) => {
         {title: '𝐃𝐌 𝐯𝐢𝐚 𝐢𝐝', description: "", rowId:".dmviaid"},
         {title: '𝐆𝐚𝐫𝐞𝐧𝐚 𝐒𝐡𝐞𝐥𝐥', description: "", rowId:".garenashell"},
         {title: '𝐉𝐚𝐬𝐚 𝐬𝐡𝐚𝐫𝐞', description: "", rowId:".js"},
-        {title: '𝐀𝐥𝐥 𝐞𝐝𝐢𝐭 𝐥𝐨𝐠𝐨', description: "", rowId:"."},
+        {title: '𝐀𝐥𝐥 𝐞𝐝𝐢𝐭 𝐥𝐨𝐠𝐨', description: "", rowId:".alleditlogo"},
         {title: '𝐀𝐥𝐥 𝐧𝐨𝐤𝐨𝐬', description: "", rowId:".allnokos"},
         {title: '𝐄𝐝𝐢𝐭 𝐉𝐉', description: "", rowId:".editjj"},
         {title: '𝐀𝐥𝐥 𝐏𝐮𝐥𝐬𝐚', description: "", rowId:".allpulsa"},
