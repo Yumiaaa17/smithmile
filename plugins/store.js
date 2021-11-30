@@ -14,7 +14,6 @@ let handler = async(m, { conn }) => {
         {title: '𝐀𝐥𝐥 𝐧𝐨𝐤𝐨𝐬', description: "", rowId:".allnokos"},
         {title: '𝐄𝐝𝐢𝐭 𝐉𝐉', description: "", rowId:".editjj"},
         {title: '𝐀𝐥𝐥 𝐏𝐮𝐥𝐬𝐚', description: "", rowId:".allpulsa"},
-        {title: '𝐏𝐚𝐤𝐞𝐭 𝐝𝐚𝐭𝐚', description: "", rowId:"."},
         {title: '𝐊𝐞𝐛𝐮𝐭𝐮𝐡𝐚𝐧 𝐬𝐨𝐬𝐦𝐞𝐝', description: "", rowId:"."},
         {title: '𝐉𝐚𝐬𝐚 𝐁𝐮𝐤𝐚 𝐖𝐀 𝐤𝐞 𝐛𝐥𝐨𝐤𝐢𝐫', description: "", rowId:".bukablokir"},
        ] }],
