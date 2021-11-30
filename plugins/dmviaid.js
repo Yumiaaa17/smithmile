@@ -15,3 +15,5 @@ let handler = async m => m.reply(`
 handler.help = ['dmviaid']
 handler.tags = ['store']
 handler.command = /^(dmviaid)$/i
+
+module.exports = handler
